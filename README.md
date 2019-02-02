@@ -1,2 +1,0 @@
-# CatapultTest
-Catapult testing
