@@ -72,12 +72,11 @@ public class Catapult extends Subsystem {
     // Put methods for controlling this subsystem
     // here. Call these from Commands.
 
-    public void deploy(double speed) {
+    public void move(double speed) {
         catapultMotor.set(speed);
     }
     public void stop() {
         catapultMotor.set(0);
     }
-
 }
 
